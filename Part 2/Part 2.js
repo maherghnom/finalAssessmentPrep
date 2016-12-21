@@ -13,6 +13,7 @@
  	a - we need to create the players using OOP the player declaration
     should take the name of the player  	==> var player1 = Player("jony")
 
+
   b - after that we need function to add the other info for the player with addInfo function
 		==> player1.addInfo(age, position, level, availability );
 
@@ -32,3 +33,82 @@
  */
 
 //writ your code here .....
+
+// function makeclub(){
+// 	var players=[];
+
+// 	return{
+// 		makeplayer:function(name){
+// 			players.push({name:name})
+
+// console.log(players)
+// 	},
+// 	addInfo:function(age,position,level,availability){
+// 		for (var i=0;i<players.length;i++){
+// 			if (players[i]===)
+// 		}
+// 	}
+
+// 	}
+// }
+
+function pl(name){
+	var p={name:name}
+
+
+p.add=addInfo;
+p.inc=levelup;
+p.isAvailable=availability;
+	return p
+}
+
+
+ var addInfo=function (age,position,level,availability){
+ 	this.age=age
+ 	this.position=position
+ 	this.level=level
+ 	this.availability=availability
+ 	}
+
+ 	 var levelup=function (n){
+ 	this.level=n
+ 	}
+
+ var availability=function(){
+ 	if (this.availability === true){
+ 		return "player is available "
+ 	}
+ 	return "player is not available"
+
+ }
+
+
+
+
+
+
+
+// function Pooo(name){
+// 	var pl={name:name}
+	
+	
+// 	pl.addi=addInfo;
+// 	return pl
+// }
+ // var addInfo=function (age,position,level,availability){
+ 	
+ // 	this.player[age] = age
+ // 	player[position]=position
+ // 	player[level]=level
+ // 	player[availability]=availability
+
+
+ // }
+
+
+
+
+
+
+
+
